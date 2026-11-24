@@ -2424,6 +2424,7 @@ fal = [
 ]
 feishu = [
     { name = "lark-oapi" },
+    { name = "pysocks" },
     { name = "qrcode" },
 ]
 firecrawl = [
@@ -2723,6 +2724,7 @@ requires-dist = [
     { name = "pypdfium2", marker = "extra == 'documents-pdf'", specifier = "==5.14.0" },
     { name = "pypinyin", marker = "extra == 'wake'", specifier = "==0.55.0" },
     { name = "pypinyin", marker = "extra == 'wake-sherpa'", specifier = "==0.55.0" },
+    { name = "pysocks", marker = "extra == 'feishu'", specifier = "==1.7.1" },
     { name = "python-docx", marker = "extra == 'documents'", specifier = "==1.2.0" },
     { name = "python-dotenv", marker = "python_full_version >= '3.14'", specifier = "==1.2.4" },
     { name = "python-multipart", marker = "python_full_version >= '3.14'", specifier = ">=0.0.9,<1" },
@@ -5447,6 +5449,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/93/cd/112f092ec27cca83e0516de0a3368dbd9128c187fb6b52aaaa7cde39c96d/pypng-0.20220715.0.tar.gz", hash = "sha256:739c433ba96f078315de54c0db975aee537cbc3e1d0ae4ed9aab0ca1e427e2c1", size = 128992, upload-time = "2022-07-15T14:11:05.301Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/3e/b9/3766cc361d93edb2ce81e2e1f87dd98f314d7d513877a342d31b30741680/pypng-0.20220715.0-py3-none-any.whl", hash = "sha256:4a43e969b8f5aaafb2a415536c1a8ec7e341cd6a3f957fd5b5f32a4cfeed902c", size = 58057, upload-time = "2022-07-15T14:11:03.713Z" },
+]
+
+[[package]]
+name = "pysocks"
+version = "1.7.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/bd/11/293dd436aea955d45fc4e8a35b6ae7270f5b8e00b53cf6c024c83b657a11/PySocks-1.7.1.tar.gz", hash = "sha256:3f8804571ebe159c380ac6de37643bb4685970655d3bba243530d6558b799aa0", size = 284429, upload-time = "2019-09-20T02:07:35.714Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/8d/59/b4572118e098ac8e46e399a1dd0f2d85403ce8bbaad9ec79373ed6badaf9/PySocks-1.7.1-py3-none-any.whl", hash = "sha256:2725bd0a9925919b9b51739eea5f9e2bae91e83288108a9ad338b2e3a4435ee5", size = 16725, upload-time = "2019-09-20T02:06:22.938Z" },
 ]
 
 [[package]]
